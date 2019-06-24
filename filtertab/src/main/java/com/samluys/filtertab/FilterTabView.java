@@ -166,6 +166,11 @@ public class FilterTabView extends LinearLayout implements OnFilterToViewListene
         }
     }
 
+    public void setColorMain(Context context,int colorMain){
+        this.colorMain = colorMain;
+        SpUtils.getInstance(context).putColorMain(this.colorMain);
+    }
+
     /**
      * @param tabName
      * @param data
