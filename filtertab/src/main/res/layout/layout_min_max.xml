@@ -23,6 +23,7 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/bg_edittext_price"
         android:gravity="center"
+        android:longClickable="false"
         android:hint="@string/min_price"
         android:lines="1"
         android:maxLength="4"
